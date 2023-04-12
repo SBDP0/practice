@@ -9,7 +9,7 @@ def main():
     print("Welcome to calcuator")
     while check >= 1:        
         print("0: exit, 1: plus")
-        check = int(input())
+        check = float(input())
         if check == 1:
             print("First Number")
             x = int(input())
